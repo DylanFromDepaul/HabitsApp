@@ -45,6 +45,36 @@
 			path = StarterAppUITests;
 			sourceTree = "<group>";
 		};
+		EC9831312CC989F8008CA25B /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC9831362CC98B1F008CA25B /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC9831382CC98B49008CA25B /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EC9831392CC98B86008CA25B /* Persistence */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		EC98313A2CC98B95008CA25B /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = App;
+			sourceTree = "<group>";
+		};
+		EC98313C2CC98BA0008CA25B /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +105,16 @@
 		EC9830FB2CC988A2008CA25B = {
 			isa = PBXGroup;
 			children = (
+				EC98313A2CC98B95008CA25B /* App */,
+				EC9831392CC98B86008CA25B /* Persistence */,
 				EC9831062CC988A2008CA25B /* StarterApp */,
 				EC9831172CC988A4008CA25B /* StarterAppTests */,
 				EC9831212CC988A4008CA25B /* StarterAppUITests */,
 				EC9831052CC988A2008CA25B /* Products */,
+				EC9831312CC989F8008CA25B /* Models */,
+				EC9831362CC98B1F008CA25B /* Views */,
+				EC9831382CC98B49008CA25B /* ViewModels */,
+				EC98313C2CC98BA0008CA25B /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +145,12 @@
 			);
 			fileSystemSynchronizedGroups = (
 				EC9831062CC988A2008CA25B /* StarterApp */,
+				EC9831312CC989F8008CA25B /* Models */,
+				EC9831362CC98B1F008CA25B /* Views */,
+				EC9831382CC98B49008CA25B /* ViewModels */,
+				EC9831392CC98B86008CA25B /* Persistence */,
+				EC98313A2CC98B95008CA25B /* App */,
+				EC98313C2CC98BA0008CA25B /* Resources */,
 			);
 			name = StarterApp;
 			packageProductDependencies = (
